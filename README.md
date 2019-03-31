@@ -16,3 +16,21 @@ Mo Tu We Th Fr Sa Su
 ```
 
 It output that so, the answer is "Tu"
+
+### Question 3: cal year
+```
+[root@host-1-185 demo]# cal 2005 > yearfile
+```
+Bingo!
+
+### Question 4: ls
+To get the list including "." and "..", we have to execute ls -al<br/>
+where flag "a" shows all files and  "l" shows us long listing format<br/>
+I used ls -al piped with wc -l</br>
+You can read about info at man wc (i.e man cmd_name)
+```
+[root@host-1-185 demo]# ls -a | wc -l
+7
+```
+SO, the answer is 7
+
