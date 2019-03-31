@@ -41,5 +41,25 @@ So, the answer is 7
 ```
 sry I am lazy to count manually :P
 
+### Question 6: append
+simply execute cal to print current month<br/>
+And redirect output with ">" and append it with ">>"
 
+```
+[root@host-1-225 demo]# cal > thismonth | date >> thismonth
+```
 
+### Question 7: copy
+just use cp yearfile yearfile2 yearfile3
+
+### Question 8: moving
+mv is used when we need to move a file from one place to another<br/>
+it is also used in renaming a file
+```
+[root@host-1-225 demo]# mv yearfile3 thisyear
+```
+
+### Question 9: deleting
+```
+[root@host-1-225 demo]# rm yearfile
+```
