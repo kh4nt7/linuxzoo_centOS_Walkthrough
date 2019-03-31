@@ -32,5 +32,14 @@ You can read about info at man wc (i.e man cmd_name)
 [root@host-1-185 demo]# ls -a | wc -l
 7
 ```
-SO, the answer is 7
+So, the answer is 7
+
+### Question 5: file size
+```
+[root@host-1-185 demo]# find -type f -printf "%s \\0" | sort -n -z | tr '\0' '\n' | head -n 1
+18
+```
+sry I am lazy to count manually :P
+
+
 
