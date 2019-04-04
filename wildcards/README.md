@@ -47,3 +47,11 @@ group  let1.doc  let2.doc  let3.doc
 
 Square Brackets wildcards is called range wildcards.
 For example, in `cp [sv]*`, it will copy a file that start with s or v 
+```
+[demo@host-1-217 ~]$ cd work/misc
+[demo@host-1-217 misc]$ ls
+group  rpt1.doc  rpt2.doc  rpt3.doc
+[demo@host-1-217 misc]$ mv *[23]* ~/scripts/
+[demo@host-1-217 misc]$ ls ~/scripts/
+bigfile2  rpt2.doc  rpt3.doc
+```
