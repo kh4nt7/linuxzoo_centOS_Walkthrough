@@ -21,3 +21,12 @@ In this case, I used
 ```
 [demo@host-1-217 ~]$ cp /etc/group /etc/vimrc work/misc/
 ```
+  
+### Question 4: Relative move
+So, simple
+```
+[demo@host-1-217 ~]$ cd work/misc
+[demo@host-1-217 misc]$ mv vimrc ../progs
+[demo@host-1-217 misc]$ ls ../progs
+vimrc
+```
