@@ -30,3 +30,25 @@ So, simple
 [demo@host-1-217 misc]$ ls ../progs
 vimrc
 ```
+
+### Question 6: cp
+```
+[demo@host-1-217 ~]$ echo file > bigfile
+[demo@host-1-217 ~]$ cp bigfile work/tutorial/bigfile2 ../scripts/
+[demo@host-1-217 ~]$ls ../scripts
+bigfile2
+```
+
+### Question 7: tilde
+echo ~$USERNAME show the home directory of $USERNAME
+```
+[demo@host-1-217 work]$ echo ~mysql
+/var/lib/mysql
+```
+
+### Question 7: tilde
+```
+[demo@host-1-217 work]$ mkdir My\ Documents
+```
+
+BOOM! Finished intro2
