@@ -63,3 +63,12 @@ it is also used in renaming a file
 ```
 [root@host-1-225 demo]# rm yearfile
 ```
+
+### Question 10: big concat
+```
+[root@host-1-217 ~]# cat thismonth yearfile2 thisyear > bigfile
+[root@host-1-217 ~]# cat bigfile
+April
+2018
+2019
+```
