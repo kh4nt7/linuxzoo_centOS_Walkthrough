@@ -30,3 +30,5 @@ let1.doc  let2.doc  let3.doc
 > to represent exactly one character, which can be any single character. Thus, two question 
 > marks in succession would represent any two characters in succession, 
 > and three question marks in succession would represent any string consisting of three characters. 
+
+More [info](http://www.linfo.org/wildcard.html)
