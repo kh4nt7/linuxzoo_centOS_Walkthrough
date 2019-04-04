@@ -32,3 +32,18 @@ let1.doc  let2.doc  let3.doc
 > and three question marks in succession would represent any string consisting of three characters. 
 
 More [info](http://www.linfo.org/wildcard.html)
+
+```
+[demo@host-1-217 letters]$ cp let?.doc ../work/misc
+[demo@host-1-217 letters]$ cd ../work/misc
+[demo@host-1-217 misc]$ ls
+group  let1.doc  let2.doc  let3.doc
+[demo@host-1-217 misc]$ mv let1.doc rpt1.doc
+[demo@host-1-217 misc]$ mv let2.doc rpt2.doc
+[demo@host-1-217 misc]$ mv let3.doc rpt3.doc
+```
+
+### Question 5: Square Brackets
+
+Square Brackets wildcards is called range wildcards.
+For example, in `cp [sv]*`, it will copy a file that start with s or v 
